@@ -31,7 +31,7 @@ const words = [
 const counterItems = [
   { value: 4, suffix: "+", label: "Years of Experience" },
   { value: 5, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
+  { value: 15, suffix: "+", label: "Completed Projects" },
   { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
@@ -74,18 +74,18 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Modern Development",
+    desc: "Crafting interfaces with up-to-date, evolving technologies.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Clear Communication",
+    desc: "Ensuring smooth updates and easy collaboration.",
   },
   {
     imgPath: "/images/time.png",
     title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    desc: "Delivering work efficiently and meeting deadlines.",
   },
 ];
 
@@ -148,41 +148,45 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+      "Gerrard consistently brought clarity and strong problem-solving skills to our team. His attention to detail and ability to refine the front-end experience made a noticeable impact on the quality of our product.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Frontend Developer",
-    date: "January 2023 - Present",
+    date: "September 2022 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Built and refined modern user interfaces with a focus on clarity and usability.",
+      "Collaborated with designers and stakeholders to translate concepts into smooth digital experiences.",
+      "Improved site performance through efficient architectures and best UI/UX practices.",
     ],
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+      "Gerrard played a key role in strengthening our MERN-based platforms. His ability to handle both frontend and backend tasks made development faster and more reliable.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Full Stack MERN Developer",
+    date: "January 2024 - Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Developed and maintained full-stack applications using MongoDB, Express.js, React, and Node.js.",
+      "Built reusable components and optimized frontend performance for better user experience.",
+      "Designed and implemented RESTful APIs and integrated them with React-based clients.",
+      "Improved database queries and backend logic for faster response times and scalability.",
+      "Collaborated with teams to deploy and monitor applications using modern DevOps tools.",
     ],
   },
   {
     review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+      "Gerrard delivered solid, efficient mobile solutions that elevated our app’s quality. His work consistently improved performance and helped us ship features faster.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
+    title: "React Native Mobile Developer",
     date: "March 2019 - May 2020",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Developed cross-platform mobile apps using React Native with clean and maintainable architecture.",
+      "Enhanced app performance through optimization, debugging, and improved state management.",
+      "Integrated backend APIs and ensured smooth data flow across key app features.",
+      "Collaborated with designers and product teams to deliver intuitive user experiences.",
+      "Implemented testing and QA processes to boost app stability and reliability.",
     ],
   },
 ];
@@ -204,53 +208,39 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Aje Dourado",
+    mentions: "@ajedourado",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "Working with Gerrard on RealNFake.co was an exceptional experience. He delivered a clean, fast, and reliable platform that perfectly supports our legit-check workflow. The attention to detail and consistency truly set his work apart.",
     imgPath: "/images/client1.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Nararya Nanda Raditya",
+    mentions: "@nararyananda",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Gerrard as a fullstack partner has always been smooth and productive. His ability to turn complex ideas into functional, user-friendly features made our development process incredibly efficient.",
     imgPath: "/images/client2.png",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Basudewa Suputra",
+    mentions: "@basudewas",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      "As a frontend collaborator, I’ve seen firsthand how Gerrard approaches problems with clarity and precision. His commitment to quality and clean architecture consistently elevates the final product. Truly a dependable teammate.",
+    imgPath: "/images/client3.png",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "Arya",
+    mentions: "@aryaprojects",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+      "Gerrard built a professional and easy-to-manage website for our foundation. He understood our needs quickly and delivered a design that feels modern, trustworthy, and impactful. Highly recommended.",
     imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
   },
 ];
 
 const socialImgs = [
   {
     name: "insta",
-    url: "https://www.instagram.com/",
+    url: "https://www.instagram.com/gerrard.stdio/",
     imgPath: "/images/insta.png",
   },
   {
@@ -265,7 +255,7 @@ const socialImgs = [
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/",
+    url: "https://www.linkedin.com/in/gerry-geraldy-latupeirissa/",
     imgPath: "/images/linkedin.png",
   },
 ];
@@ -283,4 +273,3 @@ export {
   techStackImgs,
   navLinks,
 };
-      

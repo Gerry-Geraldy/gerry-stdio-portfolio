@@ -53,32 +53,29 @@ const Showcase = () => {
               <img src="/images/project1.png" alt="Ryde" />
             </div>
             <div className="text-content">
-              <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
-              </h2>
+              <h2>Fast & Reliable Legit Checks with RealNFake</h2>
               <p className="text-white-50 md:text-xl">
-                an app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                a powerful web-based legit checker service with 4000+ successful
+                authentications handled by professional checkers.
               </p>
             </div>
           </div>
           {/* RIGHT*/}
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={project2Ref}>
-              <div className="image-wrapper bg-[#ffefdb]">
+              <div className="image-wrapper bg-[#2d2d2d]">
                 <img
                   src="/images/project2.png"
                   alt="Library Management Platform"
                 />
               </div>
-              <h2>Library Management Platform</h2>
+              <h2>Boarding House Management Apps</h2>
             </div>
             <div className="project" ref={project3Ref}>
-              <div className="image-wrapper bg-[#ffe7eb]">
+              <div className="image-wrapper bg-[#2d2d2d]">
                 <img src="/images/project3.png" alt="Yc Directory" />
               </div>
-              <h2>YC Directory - A Startuo Showcase App</h2>
+              <h2>Padel Coaching Apps</h2>
             </div>
           </div>
         </div>
